@@ -8,6 +8,7 @@ RUN npm ci
 
 COPY . .
 
+RUN npx prisma generate
 RUN npx tsc
 
 EXPOSE 3000
