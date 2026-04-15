@@ -1,4 +1,3 @@
-import "dotenv/config";
 import type { IConfig } from "../shared/types.js";
 
 const config: IConfig = {

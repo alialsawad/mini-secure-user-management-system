@@ -1,5 +1,6 @@
+import "dotenv/config";
 import http from "http";
-import { createApp } from "./app.js";
+import { createApp } from "./src/app.js";
 
 const { app, ctx } = createApp();
 
